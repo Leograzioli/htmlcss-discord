@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flexbox{
+    display: flex;
+}
+
+
+.bg-gray {
+    background-color: #ededed;
+}
+
+.wave {
+    margin-bottom: -7px;
+    filter: opacity(0.07);
+}
+
+
+.down {
+    transform: scaleX(-1);   
+    transform: rotateX(180deg) 
+}
+
+
+/* button */
+.button-small a{
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.button a{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+}
+
+.bt-black a {
+    background-color: black;
+    color: white;
+}
+
+.bt-white a{
+    background-color: white;
+    color: black;
+}
+
+.bt-violet a {
+    background-color: #7289da;
+    color: white;
+    line-height: normal;
+}
+
+/* header  */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+/* First header row  */
+.nav-list ul li {
+    display: inline-block;
+    margin-left: 3rem;   
+}
+
+.nav-list ul a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.2rem;
+}
+
+.nav-list {
+    width: 50%;
+    text-align: center;
+}
+
+.header-nav {
+    height: 60px;
+    padding-top: 10px;
+}
+
+.navigation-row {
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav-col{
+    width: 25%;
+}
+
+
+.nav-col img {
+    margin-top: 5px;
+}
+
+.topbutton {
+    text-align: end;
+}
+ /* second header row  */
+.header-txt {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+}
+
+.header-txt h1 {
+    font-size: 4rem;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.header-txt p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 50px;
+}
+
+/* main  */
+
+.row {
+    padding: 40px 0;
+}
+
+.photo-section {
+    width: 60%;
+    align-items: center;
+}
+
+.photo-section img {
+    width: 90%;
+}
+
+.text-section {
+    width: 40%;
+    margin-bottom: 40px;    
+}
+.text-section h2 {
+    font-size: 4rem;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.text-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.fb-order {
+    order: 1;
+}
+
+.bigger-section {
+    padding: 80px;
+}
+
+.bigger-section h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bigger-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.bigimg img {
+    width: 100%;
+}
+
+.bigger-section-bottom {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 150px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.bigger-section-bottom h3 {
+    font-size: 2.5rem;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 40px;
+}
+
+.footer-upper {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.social {
+    width: 20%;
+    margin-right: 40px;
+}
+
+.social h3 {
+    font-size: 2.2rem;
+    color: #7289da;
+}
+
+.social img {
+    margin-top: 20px;
+    height: 15px;
+  
+}
+
+.social span {
+    color: white;
+    margin-left: 5px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.footer-link {
+    width: 20%;
+    
+}
+
+.footer-link h4 {
+    color: #7289da;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.footer-link ul li a {
+    margin-bottom: 20px;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    color:white;
+}
+
+.footer-bottom {
+    height: 60px;
+    border-top: 1px solid #7289da;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.social i {
+    margin-right: 20px;
+}
+
+.arrowdown {
+    font-size: 10px;
+}
